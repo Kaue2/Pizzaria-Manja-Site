@@ -1,0 +1,267 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --var-color-white: #fbfbfb;
+  --var-color-red: #9a031e;
+  --var-color-blue: #2c5784;
+  --var-color-white2: #f1f7ed;
+  --var-color-orange: #faa613;
+  --var-color-blue2: #336499;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: var(--var-color-white);
+}
+
+.link-area a:hover {
+  color: var(--var-color-blue2);
+}
+
+header nav {
+  /*position: fixed;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*width: 100%;*/
+}
+
+details {
+  transition: all 0.5s ease;
+}
+
+header nav .nav-area {
+  display: flex;
+  text-align: center;
+  height: 4rem;
+  width: 100%;
+  background-color: var(--var-color-red);
+  color: var(--var-color-white);
+}
+
+header nav .link-area {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+header nav .logo-area {
+  display: flex;
+  width: 8rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 1rem;
+}
+
+header nav .logo-area img {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+header nav .titulo-area {
+  width: 6.5rem;
+  font-size: 17px;
+  margin-left: -5.5rem;
+}
+
+main .bg-area {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 95.5vh;
+  background-position: center top;
+  background-image: url("./img/Screenshot_20230509_191507_Instagram.jpg");
+}
+
+main .fundo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.363);
+  height: 5rem;
+  border-radius: 35%;
+}
+
+main .principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--var-color-blue);
+}
+
+main .titulo-area {
+  text-align: center;
+  height: 8rem;
+  width: 100%;
+  font-size: 42px;
+  padding: 1rem 0;
+  color: var(--var-color-white);
+}
+
+main.container .box1 h1 {
+  color: var(--var-color-white2);
+}
+
+main#par {
+  text-align: justify;
+
+  color: var(--var-color-white2);
+
+  padding: 0 8px;
+}
+
+main .mapa {
+  display: flex;
+
+  height: 100vh;
+
+  width: 100%;
+
+  flex-direction: row;
+
+  background-color: var(--var-color-blue);
+}
+
+main .map-area {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 20rem;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+main .text-area {
+  justify-content: flex-end;
+  height: 16rem;
+  width: 40rem;
+  text-align: justify;
+  padding: 0 4rem;
+  color: var(--var-color-white2);
+}
+
+main#link {
+  padding: 4rem 0;
+}
+
+main a:hover {
+  color: var(--var-color-red);
+}
+
+footer {
+  background-color: var(--var-color-red);
+}
+
+footer .contact {
+  display: flex;
+  height: 6rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .contact a {
+  color: black;
+}
+
+footer .btn {
+  gap: 4px;
+  padding: 20px;
+  width: 8rem;
+}
+
+footer a {
+  font-size: 2.5rem;
+}
+
+footer a:hover {
+  color: var(--var-color-white2);
+}
+
+/* christian exemplo */
+
+main .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+main section .principal .container .box1 {
+  width: 18rem;
+}
+
+main section .principal .container .box1 .imageWrapper {
+  width: 100%;
+}
+
+main section .principal .container .box1 .imageWrapper img {
+  width: 20rem;
+}
+
+main section .principal .container .box1 .textWrapper {
+  width: 100%;
+}
+
+main section .principal .container .box1 .textWrapper h1 {
+  color: var(--var-color-white2);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main section .principal .container .box1 .textWrapper p {
+  text-align: justify;
+
+  color: var(--var-color-white2);
+}
+
+main section .principal .container .box1 .textWrapper ul {
+  color: var(--var-color-white2);
+  list-style: square;
+}
+
+main section .link-pag{
+  margin: 1rem;
+  display: flex;
+  height: 8rem;
+  width: 20rem;
+}
+
+main section .btn{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--var-color-red);
+}
+
+main section .btn a{
+  font-size: 32px;
+}
+
+main section .btn a:hover{
+  color: black;
+}
